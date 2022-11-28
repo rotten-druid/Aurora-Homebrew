@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Player’s Handbook</name>
+		<description>O Livro do Jogador é a referencia essencial para qualquer jogador. Ele contém rergas para a criação e aprimoramento, antecedentes e habilidades, exploração e combate, equipamento, feitiçoes, e muito mais. Use este livro para criar personagens excitantes com as raças e classes mais icônicas de D&D.</description>
+		<author>Wizards of the Coast</author>
+		<update version="0.2">
+			<file name="players-handbook.index" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook.index" />
+		</update>
+	</info>
+	<files>	
+		<!-- races -->
+		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook/races/race-dragonborn.xml" />
+
+		<!-- classes -->
+
+		<!-- backgrounds -->
+
+		<!-- items -->
+
+		<!-- misc -->
+	</files>
+</index>

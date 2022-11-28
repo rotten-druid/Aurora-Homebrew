@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragonborn</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.3">
+			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook/races/race-dragonborn.xml" />
+		</update>
+	</info>
+	
+	<element name="Dragonborn" type="Race" source="Player’s Handbook" id="ID_RACE_DRAGONBORN">
+		<description>
+			<p class="flavor">Descendentes de dragões, como o nome indica, os draconatos caminham orgulhosos em um mundo que os saúda com temerosa incompreensão. Moldados pelos deuses dracônicos ou pelos próprios dragões, originalmente os draconatos eclodiram de ovos de dragão,  como uma raça única, combinando os melhores atributos de dragões e humanoides.</p>
+			<h4>NOMES DRACONATOS</h4>
+			<p>Draconatos tem um nome pessoal recebido ao nascer, mas eles preferem colocar o nome de seu clã primeiro como uma marca de honra. Um nome infantil ou um apelido é comumente utilizado entre companheiros. O nome pode fazer referência a um evento, local ou hábito.</p>
+			<p class="indent"><strong>Nomes Masculinos:</strong> Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</p>
+			<p class="indent"><strong>Nomes Femininos:</strong> Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</p>
+			<p class="indent"><strong>Nomes infantis:</strong> Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</p>
+			<p class="indent"><strong>Nomes de Clã:</strong> Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</p>
+			<h4>TRAÇOS RACIAIS</h4>
+			<p>Sua herança dracônia manifesta-se em uma variedade de traços compartilhados com outros draconatos.</p>
+			<p class="indent"><strong><em>Aumento no Valor de Atributo.</em></strong> Seu valor de Carisma aumenta em 1.</p>
+			<p class="indent"><strong><em>Idade.</em></strong> Draconatos jovens crescem rapidamente. Eles começam a andar horas após o nascimento, chegando ao tamanho e estrutura de uma criança humana de 10 anos aos 3, e a maioridade aos 15. Costumam viver em torno de 500 anos.</p>
+			<p class="indent"><strong><em>Alinhamento.</em></strong> Draconatos tendem aos extremos, fazendo uma escolha consciente entre um lado ou outro na guerra cósmica do bem contra o mal (representados por Bahamut e Tiamat, respectivamente). A maioria dos draconatos são bons, porém, aqueles que se aliam a Tiamat podem se tornar vilões terríveis.</p>
+			<p class="indent"><strong><em>Tamanho.</em></strong> Seu tamanho é Médio. Draconatos são mais altos e pesados que humanos, chegando facilmente a 1,8 metro de altura e pesando em média 110 quilos.</p>
+			<p class="indent"><strong><em>Deslocamento.</em></strong> Seu deslocamento básico é de 30 pés.</p>
+			<p class="indent"><strong><em>Visão no Escuro.</em></strong> Você pode ver na penumbra dentro de 60 pés como se estivesse claro, e na escuridão como se estivesse na penumbra. Você não é capaz de discernir cores no escuro, apenas tons de cores associados a sua Herança Dracônica.</p>
+			<p class="indent"><strong><em>Herança Dracônica.</em></strong> Você vem de uma linhagem dracônica. Escolha um tipo de dragão na tabela de herança associada a sua subraça. Seu ataque de sopro e resistência a dano são determinados pelo tipo de dragão.</p>
+			<p class="indent"><strong><em>Ataque de Sopro.</em></strong> Quando você usa uma ação de ataque no seu turno, voce pode substituir um dos seus ataques para exalar energia destrutiva por meio de seu Ataque de Sopro. Sua herança determina a forma e o tipo de dano causado.</p>
+			<p class="indent">Quando você usa seu Ataque de Sopro, cada criatura na área atingida precisa realizar uma salvaguarda, cujo tipo também será determinado por sua herança dracônica. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. A criatura sofre 1d10 pontos de dano ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 2d10 no 5° nível, 3d10 no 10°, 4d10 no 15° e 5d10 no 20°.</p>
+			<p class="indent">Você pode usar seu ataque de sopro um número de vezes igual ao seu bônus de proficiência, recuperando seus usos após o fim de um descanso longo.</p>
+			<p class="indent"><strong><em>Resistência a Dano.</em></strong> Você tem resistência ao mesmo tipo de dano associado à sua herança dracônica.</p>
+			<p class="indent"><strong><em>Idiomas.</em></strong> Você pode falar, ler e escrever Comum e Dracônico.</p>
+			<p class="indent"><strong><em>Subraça.</em></strong> Draconatos são separados em tribos que herdaram suas características de diferentes tipos de dragões, algumas tribos ainda sofreram alterações em suas características devido ao ambiente e o tipo de sociedade em que vivem.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
+			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="height" modifier="2d8">5'8"</set>
+			<set name="weight" modifier="2d6">175 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAGONBORN_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Dragonborn Subrace" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRAGONBORN_SUBRACE">
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Dragonborn Subrace" supports="Dragonborn" />
+		</rules>
+	</element>
+	<element name="Ataque de Sopro" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>Quando você usa uma ação de ataque no seu turno, voce pode substituir um dos seus ataques para exalar energia destrutiva por meio de seu Ataque de Sopro. Sua herança determina a forma e o tipo de dano causado.</p>
+			<p>Quando você usa seu Ataque de Sopro, cada criatura na área atingida precisa realizar uma salvaguarda, cujo tipo também será determinado por sua herança dracônica. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. A criatura sofre 1d10 pontos de dano ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 2d10 no 5° nível, 3d10 no 10°, 4d10 no 15° e 5d10 no 20°.</p>
+			<p>Você pode usar seu ataque de sopro um número de vezes igual ao seu bônus de proficiência, recuperando seus usos após o fim de um descanso longo.</p>
+		</description>
+		<sheet action="Action" usage="{{proficiency}}/Short Rest">
+			<description>Exale energia destrutiva. Seu ataque de sopro causa {{ataque-de-sopro:dice count}}d{{ataque-de-sopro:dice size}} de dano DC {{ataque-de-sopro:dc}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ataque-de-sopro:dc" value="8" />
+			<stat name="ataque-de-sopro:dc" value="constitution:modifier" />
+			<stat name="ataque-de-sopro:dc" value="proficiency" />
+			<stat name="ataque-de-sopro:dice size" value="10" bonus="dice" />
+			<stat name="ataque-de-sopro:dice count" value="1" level="1" />
+			<stat name="ataque-de-sopro:dice count" value="1" level="5" />
+			<stat name="ataque-de-sopro:dice count" value="1" level="10" />
+			<stat name="ataque-de-sopro:dice count" value="1" level="15" />
+			<stat name="ataque-de-sopro:dice count" value="1" level="20" />
+		</rules>
+	</element>
+	<element name="Resistência a Dano" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>Você tem resistência ao mesmo tipo de dano associado à sua herança dracônica.</p>
+		</description>
+		<sheet>
+			<description>Você tem resistência ao dano de seus ancestrais dracônicos.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER" />
+		</rules>
+	</element>
+
+	<!-- HERANÇAS DRACONICAS -->
+	<element name="Heranca Draconica Cromatica" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC">
+		<supports>Heranca Draconica Sanguepuro, Herança Dracônica Selvagem</supports>
+		<description>
+			<p>Você vem de uma linhagem de dragões cromáticos. Escolha um tipo de dragão na tabela de herança cromática. Seu ataque de sopro e resistência a dano são determinados pelo tipo de dragão, conforme mostrado na tabela.</p>
+			<h5>HERANÇA CROMÁTICA</h5>
+			<table>
+				<thead>
+					<tr><td>Dragão</td><td>Tipo de Dano</td><td>Ataque de Sopro</td></tr>
+				</thead>
+				<tr><td>Azul</td><td>Elétrico</td><td>linha 5 por 30 pés (Dex. save)</td></tr>
+				<tr><td>Branco</td><td>Frio</td><td>cone 15 pés (Con. save)</td></tr>
+				<tr><td>Preto</td><td>Ácido</td><td>linha 5 por 30 pés (Dex. save)</td></tr>
+				<tr><td>Verde</td><td>Venenoso</td><td>cone 15 pés (Con. save)</td></tr>
+				<tr><td>Vermelho</td><td>Ígneo</td><td>cone 15 pés (Dex. save)</td></tr>
+			</table>
+		</description>
+		<sheet alt="Heranca Draconica Cromatica" display="false" />
+		<rules>
+			<select type="Racial Trait" name="Heranca Draconica Cromatica" supports="Heranca Draconica Cromatica" requirements="ID_SUB_RACE_DRAGONBORN_CHROMATIC||ID_SUB_RACE_DRAGONBORN_RAVENITE||ID_SUB_RACE_DRAGONBORN_WILD" />
+			<select type="Racial Trait" name="Heranca Draconica Cromatica" number="2" supports="Heranca Draconica Cromatica" requirements="ID_SUB_RACE_DRAGONBORN_PUREBLOOD" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica Metalica" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC">
+		<supports>Heranca Draconica Sanguepuro, Herança Dracônica Selvagem</supports>
+		<description>
+			<p>Você vem de uma linhagem de dragões metálicos. Escolha um tipo de dragão na tabela de herança metálica. Seu ataque de sopro e resistência a dano são determinados pelo tipo de dragão, conforme mostrado na tabela.</p>
+			<h5>HERANÇA METÁLICA</h5>
+			<table>
+				<thead>
+					<tr><td>Dragão</td><td>Tipo de Dano</td><td>Ataque de Sopro</td></tr>
+				</thead>
+				<tr><td>Bronze</td><td>Elétrico</td><td>linha 5 por 30 pés (Dex. save)</td></tr>
+				<tr><td>Cobre</td><td>Ácido</td><td>linha 5 por 30 pés (Dex. save)</td></tr>
+				<tr><td>Latão</td><td>Ígneo</td><td>linha 5 por 30 pés (Dex. save)</td></tr>
+				<tr><td>Ouro</td><td>Ígneo</td><td>cone 15 pés (Dex. save)</td></tr>
+				<tr><td>Prata</td><td>Frio</td><td>cone 15 pés (Con. save)</td></tr>
+			</table>
+		</description>
+		<sheet alt="Heranca Draconica Metalica" display="false" />
+		<rules>
+			<select type="Racial Trait" name="Heranca Draconica Metalica" supports="Heranca Draconica Metalica" requirements="ID_SUB_RACE_DRAGONBORN_METALLIC||ID_SUB_RACE_DRAGONBORN_REVENITE" />
+			<select type="Racial Trait" name="Heranca Draconica Metalica" number="2" supports="Heranca Draconica Metalica" requirements="ID_SUB_RACE_DRAGONBORN_PUREBLOOD" />
+		</rules>
+	</element>
+
+	<!-- TIPOS DE DRAGÕES -->
+	<element name="Heranca Draconica (Azul)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Heranca Draconica Cromatica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+		</description>
+		<sheet alt="Azul">
+			<description>Seu ancestral cromático é Azul. Seu dano é Elétrico. Seu ataque de sopro é em linha 5 por 30 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Azul"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Eletrico" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Branco)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Heranca Draconica Cromatica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+		</description>
+		<sheet alt="Branco">
+			<description>Seu ancestral cromático é Branco. Seu dano é Frio. Seu ataque de sopro é em cone 15 pés (Con. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Branco"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Frio" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Bronze)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Heranca Draconica Metalica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC" />
+		</description>
+		<sheet alt="Bronze">
+			<description>Seu ancestral cromático é Bronze. Seu dano é Elétrico. Seu ataque de sopro é em linha 5 por 30 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Bronze"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Eletrico" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Cobre)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Heranca Draconica Metalica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC" />
+		</description>
+		<sheet alt="Cobre">
+			<description>Seu ancestral cromático é Cobre. Seu dano é Ácido. Seu ataque de sopro é em linha 5 por 30 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Cobre"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Acido" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Latao)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Heranca Draconica Metalica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC" />
+		</description>
+		<sheet alt="Latao">
+			<description>Seu ancestral cromático é Latão. Seu dano é Ígneo. Seu ataque de sopro é em linha 5 por 30 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Latao"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Igneo" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Ouro)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Heranca Draconica Metalica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC" />
+		</description>
+		<sheet alt="Ouro">
+			<description>Seu ancestral cromático é Ouro. Seu dano é Ígneo. Seu ataque de sopro é em cone 15 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Ouro"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Igneo" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Prata)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Heranca Draconica Metalica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_METALLIC" />
+		</description>
+		<sheet alt="Prata">
+			<description>Seu ancestral cromático é Prata. Seu dano é Frio. Seu ataque de sopro é em cone 15 pés (Con. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Prata"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Frio" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Preto)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Heranca Draconica Cromatica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+		</description>
+		<sheet alt="Preto">
+			<description>Seu ancestral cromático é Preto. Seu dano é Ácido. Seu ataque de sopro é em linha 5 por 30 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Preto"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Acido" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Verde)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Heranca Draconica Cromatica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+		</description>
+		<sheet alt="Verde">
+			<description>Seu ancestral cromático é Verde. Seu dano é Venenoso. Seu ataque de sopro é em cone 15 pés (Con. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Verde"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Venenoso" />
+		</rules>
+	</element>
+	<element name="Heranca Draconica (Vermelho)" type="Racial Trait" source="Livro do Jogador" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Heranca Draconica Cromatica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+		</description>
+		<sheet alt="Vermelho">
+			<description>Seu ancestral cromático é Vermelho. Seu dano é Ígneo. Seu ataque de sopro é em cone 15 pés (Dex. save).</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="heranca-draconica" value="Vermelho"/>
+			<stat inline="true" name="heranca-draconica:damage type" value="Igneo" />
+		</rules>
+	</element>
+
+	<!-- SUBRAÇAS -->
+	<element name="Draconato Cromatico" type="Sub Race" source="Livro do Jogador" id="ID_SUB_RACE_DRAGONBORN_CHROMATIC">
+		<supports>Draconato</supports>
+		<description>
+			<p>Draconatos com ancestralidade cromática possuem o poder elemental bruto dos dragões cromáticos. As vibrantes cores dos dagões pretos, azuis, verdes, vermelhos e brancos brilham na pele escamada e na energia mortal da arma de sopro destes draconatos. A eles pertence a pura fúria elemental de vulcões, a mordida gélida dos ventos árticos, das incontroláveis tempestades de raios, assim como os sutis sussurros dos corrosivos e tóxicos dos pântanos e florestas.</p>
+			<p class="indent"><strong><em>Aumento no Valor de Atributo.</em></strong> Seu valor de Força aumenta em 2.</p>
+			<p class="indent"><strong><em>Ancestralidade Cromática.</em></strong> Você é o sucessor de uma linhagem ligada a dragões cromáticos, o que lhe garante uma afinidade mágica especial. Escolha um tipo de dragão da tabela de <em>Ancestralidade Cromática</em>.</p>
+			<p class="indent"><strong><em>Proteção Cromática.</em></strong> Começando no 5° nível, como uma ação, você pode canalizar sua energia dracônica para se proteger. Por 1 minuto, você se torna imune ao tipo de dano associado ao seu ancestral cromático. Uma vez que você use esta característica, você não pode utilizá-la novamente até terminar um descanso curto.</p>
+		</description>
+		<sheet alt="Draconato Cromatico" display="false" />
+		<rules>
+			<stat name="strength" value="2" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_CHROMATIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CROMATICO_PROTECAO_CROMATICA" level="5" />
+		</rules>
+	</element>
