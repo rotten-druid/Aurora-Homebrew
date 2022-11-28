@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Regras da Mesa</name>
+		<description>Conteúdos dos livros oficiais alterados pelo mestre.</description>
+		<author>Mestre</author>
+		<update version="0.2.5">
+			<file name="regras-da-mesa.index" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/regras-da-mesa.index" />
+		</update>
+	</info>
+	<files>
+		<!-- <file name="dungeon-masters-guide.index" url="" /> -->
+		<!-- <file name="monster-manual.index" url="" /> -->
+		<file name="players-handbook.index" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook.index" />
+	</files>
+</index>
