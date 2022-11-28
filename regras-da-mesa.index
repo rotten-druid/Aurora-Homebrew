@@ -11,6 +11,6 @@
 	<files>
 		<!-- <file name="dungeon-masters-guide.index" url="" /> -->
 		<!-- <file name="monster-manual.index" url="" /> -->
-		<file name="players-handbook.index" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook.index" />
+		<!-- <file name="players-handbook.index" url="https://raw.githubusercontent.com/rotten-druid/Aurora-Homebrew/main/core/players-handbook.index" /> -->
 	</files>
 </index>
